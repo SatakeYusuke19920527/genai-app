@@ -1,3 +1,4 @@
+import AuthButton from '@/components/auth/auth-button';
 import MobileNav from '@/components/dashboard/mobile-nav';
 import DashboardNav from '@/components/dashboard/nav';
 import Link from 'next/link';
@@ -11,14 +12,20 @@ export default function DashboardLayout({
     <div>
       {/* header */}
       <header className="sticky top-0 z-40 border-b bg-background">
-        <div className="container flex items-center h-16 px-4">
+        <div className="flex items-center h-16 px-6">
           <MobileNav />
-          <Link
-            href="/dashboard"
-            className="flex items-center space-x-2 cursor-pointer"
-          >
-            <h1 className="text-lg font-bold">AI Image Generator</h1>
-          </Link>
+
+          <div className="flex w-full">
+            <Link
+              href="/dashboard"
+              className="flex items-center space-x-2 cursor-pointer"
+            >
+              <h1 className="text-lg font-bold">AI Image Generator</h1>
+            </Link>
+            <div className="ml-auto hidden md:block">
+              <AuthButton />
+            </div>
+          </div>
         </div>
       </header>
       {/* sidebar and main contaits */}

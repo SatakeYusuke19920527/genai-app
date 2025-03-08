@@ -124,7 +124,7 @@ export function SiteHeader() {
                       ログイン
                     </Link>
                     <Button asChild>
-                      <Link href="/signup">無料で始める</Link>
+                      <Link href="/dashboard">無料で始める</Link>
                     </Button>
                   </nav>
                 </SheetContent>

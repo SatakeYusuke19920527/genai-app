@@ -3,6 +3,7 @@ import { navItems } from '@/config/nav';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import AuthButton from '../auth/auth-button';
 import { Button } from '../ui/button';
 
 const DashboardNav = () => {
@@ -27,6 +28,9 @@ const DashboardNav = () => {
           </Button>
         );
       })}
+      <div className="my-4 px-4 md:hidden">
+        <AuthButton />
+      </div>
     </nav>
   );
 };
