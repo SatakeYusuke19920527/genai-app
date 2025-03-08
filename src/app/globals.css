@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @plugin "tailwindcss-animate";
 
@@ -147,3 +147,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* @layer components {
+  .container {
+    @apply mx-auto px-4 max-w-7xl;
+  }
+} */
