@@ -1,10 +1,10 @@
-import { CtaSection } from '@/components/sections/cta-section';
-import { FeaturesSection } from '@/components/sections/features-section';
-import { Footer } from '@/components/sections/footer';
-import { HeroSection } from '@/components/sections/hero-section';
-import { PricingSection } from '@/components/sections/pricing-section';
-import { SiteHeader } from '@/components/sections/site-header';
-import { UseCasesSection } from '@/components/sections/use-cases-section';
+import { CtaSection } from '@/components/lp/cta-section';
+import { FeaturesSection } from '@/components/lp/features-section';
+import { Footer } from '@/components/lp/footer';
+import { HeroSection } from '@/components/lp/hero-section';
+import { PricingSection } from '@/components/lp/pricing-section';
+import { SiteHeader } from '@/components/lp/site-header';
+import { UseCasesSection } from '@/components/lp/use-cases-section';
 
 export default function Home() {
   return (

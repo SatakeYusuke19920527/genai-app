@@ -99,7 +99,7 @@ export function SiteHeader() {
                 <Link href="/login">ログイン</Link>
               </Button>
               <Button asChild>
-                <Link href="/signup">無料で始める</Link>
+                <Link href="/dashboard">無料で始める</Link>
               </Button>
             </div>
             <div className="md:hidden">
